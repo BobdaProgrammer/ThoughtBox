@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(58, 188, 175);
+}
+
+
+.new{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #17f1c9;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 40px;
+  display: flexbox;
+  cursor: pointer;
+}
+.newbuttonhold{
+  margin-top: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.newpage {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  align-items: center; /* Center align the children horizontally */
+}
+
+.thoughtTitleInput {
+  margin-bottom: 10px; /* Add some spacing between the input and button */
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+}
+
+.newThoughtClose{
+  margin: 5px;
+  background-color: rgb(73, 252, 157);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.createThought {
+  background-color: rgb(249, 94, 120); /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  padding: 5px 10px; /* Set your desired padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ThoughtHold{
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(0, 255, 213);
+  width: 50%;
+  min-height: 15vh;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+}
+h2{
+  max-width: 95%;
+  word-wrap: break-word;
+  margin: 0 auto;
+  justify-self: center;
+}
+button{
+  cursor: pointer;
+}
+.thoughtEdit{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

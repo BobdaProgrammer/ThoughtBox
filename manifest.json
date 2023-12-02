@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "ThoughtBox",
+  "short_name": "ThoughtBox",
+  "icons":[
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "start_url":"https://bobdaprogrammer.github.io/ThoughtBox/",
+  "display": "fullscreen",
+  "version": "1.0",
+  "description": "The best to do list"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ThoughtBox</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="theme-color" content="#31d53d" />
+  </head>
+  <body>
+    <div class="newbuttonhold">
+      <button class="new" onclick="ShowBox();">+</button>
+    </div>
+    <div class="newpage">
+      <button class="newThoughtClose" id="thoughtClose" onclick="HideBox();">x</button>
+      <input class="thoughtTitleInput" id="thoughtInput">
+      <button class="createThought" id="createThought" onclick="HideBox(); addThought();">ok</button>
+    </div>
+    <div class="thoughts"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
